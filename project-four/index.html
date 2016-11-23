@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic of JavaScripts</title>
+    </head>
+<body>
+    <h1>JavaScript Introduction</h1>
+    <p>According to W3 School <q>JavaScript is the programming language of HTML and the Web. Programming makes computers do what you want them to do.</q></p>
+    <h2>My First JavaScript</h2>
+    <button type="button" onClick="document.getElementById('display-date').innerHTML = Date();"> Display Date </button>
+    <p id="display-date"></p>
+    <hr>
+     <h2>JavaScripts OnClick Event</h2>
+     <button type="button" onClick="document.getElementById('display').innerHTML = 'This is the simple example of onClick Event'">Click to display</button>
+     <p id="display"></p>
+     <hr>
+     <h1>JavaScript Introduction</h1>
+     <p>A JavaScript function is a block of JavaScript code, that can be executed when "asked" for. For example, a function can be executed when an event occurs, like when the user clicks a button.</p>
+     <h2>1. JavaScript Can Change HTML Attributes</h2>
+     <button type="button" onClick="document.getElementById('my-image').src = ('images/pic_bulboff.gif')">Click here to OFF the bulb</button>
+     <img id="my-image" src="images/pic_bulboff.gif" />
+     <button type="button" onClick="document.getElementById('my-image').src = ('images/pic_bulbon.gif')">Click here to ON the bulb</button>
+     <hr>
+     <h2>2. JavaScript Can Change HTML Styles (CSS)</h2>
+     <h1 id="green" style="color:#060; font-size:20px">Hello everyone!</h1>
+     <button onClick="document.getElementById('green').style = ('color:red; font-size:40px;')">Click here to change the style</button>
+     <hr>
+     <h2>3. JavaScript Can Hide HTML Elements</h2>
+     <p id="hide" style="display:block;">This text will be hide on click</p>
+     <button type="button" onClick="document.getElementById('hide').style = ('display:none;')">Click to hide the above text!</button>
+     <hr>
+     <h2>4. JavaScript Can Show HTML Elements</h2>
+     <p id="show" style="display:none;">This text will be display on click</p>
+     <button type="button" onClick="document.getElementById('show').style = ('display:block;')">Click to display the text!</button>
+     <hr>
+     <h2>5. JavaScripts Functions</h2>
+		<script>
+		function changeText() {
+			document.getElementById('text').innerHTML = ('By Click Even, the text has been replaced!');
+			}
+        
+        </script>
+        <button type="button" onClick="changeText();">Replace</button>
+        <p id="text">This text will be replace</p>
+        <hr>
+        <h2>JavaScript Display Possibilities</h2>	
+        	<p>JavaScript can "display" data in different ways:</p>
+			<ol>
+				<li>Writing into an alert box, using window.alert().</li>
+				<li>Writing into the HTML output using document.write().</li>
+				<li>Writing into an HTML element, using innerHTML.</li>
+				<li>Writing into the browser console, using console.log().</li>
+            </ol>
+            <h3>Writing into an alert box, using window.alert()</h3>
+            <button type="button" onClick="window.alert(5+5)">Display 5+5</button>
+            <h3>Writing into the HTML output using document.write()</h3>
+            <button type="button" onClick="document.write('This text will appear <br> Please reload the page to go back!')">Write</button>
+            <h3>Writing into an HTML element, using innerHTML</h3>
+            <button type="button" onClick="document.getElementById('innerText').innerHTML = ('This text is displayed by innerHTML')">Click to display the text by innerHTML</button>
+            <p id="innerText"></p>
+            <hr>
+            <h3>Writing into the browser console, using console.log()</h3>
+            <script>
+			console.log(5+5);
+			</script>
+            <hr>
+            <h2>6. JavaScript Variables</h2>
+            <script>
+			var a=5;
+			var b=6;
+			var c=a+b;
+		</script>
+		</head>
+        <script>
+		document.write(a);
+		document.write(' + ');
+		document.write(b);
+        </script>
+<button type="button" onclick="document.getElementById('plus').innerHTML = (c)">Show Sum</button>
+<p id="plus"></p>
+<hr>
+<h3>JavaScript Statements</h3>
+     
+  
+     
+     
+     
+      <br>
+      <br>
+      <br>
+      <br><br>
+      <br>
+      <br>
+      <br><br>
+      <br>
+      <br>
+      <br>
+      <br>
+</body>

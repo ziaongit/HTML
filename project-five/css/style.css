@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:#ff6600;
+    font-family: abel sans-serif;
+	font-size:20px;
+	margin: 0 auto;
+	}
+	#page-header {
+                overflow:hidden;
+                        }
+	#header{
+                overflow:hidden;
+                width:100%;
+                margin:0 auto;
+                padding: 10px 0px 15px 0px;
+                    }
+	h1, h2 {
+	font-family: gill sans mt;
+ 	text-align: center;
+ 	padding: 0px;
+ 	margin: 0px;
+	text-transform:uppercase;
+	}
+	#logo h1 {
+		font-size:4em;
+		}
+	#logo span{
+		color:#ffffff;
+		}
+	
+	#sixColumns {
+	width:80%;
+    margin: 0 auto;
+    padding: 30px 0px;
+	overflow: hidden;
+		}
+	#col1 {
+    float: left;
+    width: 300px;
+    text-align: justify;
+    margin-right: 50px;
+			}
+	#col2 {
+    float: left;
+    width: 300px;
+    text-align: justify;
+    margin-right: 50px;
+			}
+	#col3 {
+    float: left;
+    width: 300px;
+    text-align: justify;
+			}
+	#col4 {
+    float: left;
+    width: 300px;
+    text-align: justify;
+    margin-right: 50px;
+			}
+	#col5 {
+    float: left;
+    width: 300px;
+    text-align: justify;
+    margin-right: 50px;
+			}
+	#col6 {
+    float: left;
+    width: 300px;
+    text-align: justify;
+			}
+	p1 {
+		position:relative;
+		}
+	p1:before {
+	font-family:FontAwesome;
+    content: "\f009";
+	text-align:center;
+	font-size:100px;
+	display:block;
+			}
+	p2 {
+		position:relative;
+		}
+	p1:before {
+	font-family:FontAwesome;
+    content: "\f009";
+	text-align:center;
+	font-size:100px;
+	display:block;
+			}
+	p2 {
+		position:relative;
+		}
+	p2:before {
+	font-family:FontAwesome;
+    content: "\f13b";
+	text-align:center;
+	font-size:100px;
+	display:block;
+			}
+	p3 {
+		position:relative;
+		}
+	p3:before {
+	font-family:FontAwesome;
+    content: "\f13c";
+	text-align:center;
+	font-size:100px;
+	display:block;
+			}
+	p4 {
+		position:relative;
+		}
+	p4:before {
+	font-family:FontAwesome;
+    content: "\f14e";
+	text-align:center;
+	font-size:100px;
+	display:block;
+			}
+	p5 {
+		position:relative;
+		}
+	p5:before {
+	font-family:FontAwesome;
+    content: "\f170";
+	text-align:center;
+	font-size:100px;
+	display:block;
+			}
+	p6 {
+		position:relative;
+		}
+	p6:before {
+	font-family:FontAwesome;
+    content: "\f1b3";
+	text-align:center;
+	font-size:100px;
+	display:block;
+			}
+	#footer {
+	font-size: 0.75em;
+	text-align: center; 
+	clear: both;
+	padding-top: 50px; 
+	border-top: 5px solid #d0d0d0;
+	color: #fff; 
+	background-color: #000;
+	width: 100%;
+	height: 300px;
+	height: 100%;
+	overflow: none; 
+	}

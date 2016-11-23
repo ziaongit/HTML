@@ -1,0 +1,81 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+*{
+                padding:0;
+                margin:0;
+}
+
+html{
+	background-color: #eaf0f2;
+}
+
+body{
+                background-image: url(../images/background-image.jpg);
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+                font-size: 20px;
+                font-family: abet sans-serif;
+                color: #3b3b3b;              
+}
+
+#page-header{
+                text-align: center;
+                padding-top: 30px;
+                margin-bottom:50px;
+}
+
+h1, h1 {
+                font-size: 30px;
+                font-family: impact;
+                font-weight: normal;
+                text-transform: uppercase;
+                margin: 0px;
+                padding: 0px;
+                color: #111111;
+                text-align: center;        
+            }
+            
+#logo h1 {
+                line-height: 150px;
+                font-size: 6.5em;
+                letter-spacing: -5px;
+                text-shadow: 0px 5px #614d0d;
+            }
+ #threeColumns {
+                background-color: rgba(225,225,225,0.5);
+                margin: 0 auto;
+                padding: 30px 30px;
+                width: 85%;
+                overflow: hidden;
+            }
+#threeColumns #col1 {
+                width: 320px;
+                float: left;
+                margin-right: 85px;
+                text-align: justify;
+            }
+#threeColumns #col2 {
+                width: 320px;
+                float: left;
+                margin-right: 85px;
+                text-align: justify;
+            }
+#threeColumns #col3 {
+                width: 320px;
+                float: left;
+                text-align: justify;
+            }
+
+/* In our demo, the footers are fixed to the bottom of the page */
+
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
