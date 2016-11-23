@@ -1,0 +1,733 @@
+@import url(https://fonts.googleapis.com/css?family=Teko:400,500|Droid+Sans:400,700);
+
+.row {
+	background: none;
+}
+
+.pink {
+	background: #e196af;
+}
+
+.beige {
+	background: #ffd2aa;
+}
+
+.blue {
+	background: #68979b;
+}
+
+.green {
+	background: #bee599;
+}
+
+.orange {
+	background: #e66b24;
+}
+
+
+
+body{
+	background-color: #000;
+}
+
+
+/*navigation*/
+
+.top-bar{
+	height:90px;
+	background-color: #000;
+}
+
+@media screen and (min-width:950px) {
+	.top-bar{
+		height:140px;
+	}
+}
+
+.top-bar-section li:not(.has-form) a:not(.button){
+	font-family:"Droid",sans-serif;
+	font-size: 14px;
+	background-color: #000;
+	margin-right:20px;
+}
+
+@media screen and (min-width:641px) {
+	.top-bar-section li:not(.has-form) a:not(.button){
+		font-size: 10px;
+	}
+}
+
+@media screen and (min-width:850px) {
+	.top-bar-section li:not(.has-form) a:not(.button){
+		font-size: 14px;
+	}
+}
+
+.top-bar-section ul{
+	margin-top:100px;
+}
+
+@media screen and (min-width:641px) {
+	.top-bar-section ul{
+		margin-top: 25px;
+	}
+}
+
+@media screen and (min-width:950px) {
+	.top-bar-section ul{
+		margin-top: 50px;
+	}
+}
+
+#logo{
+	width:120px;
+	height: 80px;
+	margin-left:20px;
+	margin-top:8px;
+	background-color: none;
+}
+
+@media screen and (min-width:641px) {
+	#logo{
+		width:120px;
+		height: 80px;
+	}
+}
+
+@media screen and (min-width:700px) {
+	#logo{
+		width:200px;
+		height: 150px;
+		margin-top: 15px;
+	}
+}
+
+@media screen and (min-width:950px) {
+	#logo{
+		width:300px;
+		height: 220px;
+		margin-top: 28px;
+		margin-left:20px; 
+	}
+}
+
+.top-head{
+	height:30px;
+}
+
+.fixed{
+	background-color: #000;
+	/*width:1000px;
+	 If having probelms with fixed position fo back into foundation.css and turn back on the fixed left property*/
+}
+
+/* Use this is navigation links need to be changed
+.top-bar-section ul li > a
+	{
+
+	}
+*/
+
+.top-bar-section ul li > a:hover{
+	background-color: #000 !important;
+	color:#e66b24 !important;
+}
+
+/* INDEX TOP HEADING SECTION*/
+.heading{
+  position: relative;
+}
+
+.positioning{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:15px;
+  width: 100%;
+  background-color: none !important;
+  position: absolute;
+}
+
+#gatorade{
+  width:35px;
+  height:35px;
+  float:right;
+  margin-bottom: 2%;
+  margin-right:3%;
+}
+
+@media screen and (min-width:537px) {
+  #gatorade{
+  	margin-top:1%;
+    width:45px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  #gatorade{
+    width:75px;
+      height:75px;
+
+  }
+}
+
+@media screen and (min-width:932px) {
+  #gatorade{
+    width:100px;
+    height:100px;
+  }
+}
+
+
+.heading-text-2{
+  display: block;
+  color: #fff;
+  font-size: 9px;
+  text-align: right;
+  padding-right: 2%;
+  margin-top:-3%;
+}
+
+@media screen and (min-width:584px) {
+  .heading-text-2{
+    margin-top:-2%;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .heading-text-2{
+    margin-top:0%;
+    padding-right: 5%;
+  }
+}
+
+@media screen and (min-width:955px) {
+  .heading-text-2{
+  	font-size: 16px;
+    margin-top:0%;
+    margin-bottom: -1%;
+    padding-right: 5%;
+  }
+}
+
+
+.heading-text{
+  display: block;
+  color: #fff;
+  font-family: "Teko";
+  text-align: center;
+  text-transform: uppercase;
+
+  margin-top: 5px;
+  font-size: 23px;
+  line-height: 30px;
+}
+
+
+
+@media screen and (min-width:385px) {
+  .heading-text{
+  	margin-top:40px;
+    font-size: 35px;
+    line-height:30px;
+  }
+}
+
+@media screen and (min-width:530px) {
+  .heading-text{
+    margin-top: 50px;
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .heading-text{
+    margin-top: 110px;
+    font-size: 65px;
+    line-height:60px;
+  }
+}
+
+@media screen and (min-width:932px) {
+  .heading-text{
+    margin-top: 150px;
+    font-size: 85px;
+    line-height:70px;
+  }
+}
+
+@media screen and (min-width:1000px) {
+  .heading-text{
+    margin-top: 155px;
+    font-size: 95px;
+    line-height:80px;
+  }
+}
+
+
+
+.gradient{
+   background: -webkit-linear-gradient(#eee, #ddd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  
+
+
+  display: block;
+  color: #fff;
+  font-size: 25px;
+  font-family: "Teko";
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: -3px;
+}
+
+@media screen and (min-width:385px) {
+  .gradient{
+  	margin-top: -8px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width:537px) {
+  .gradient{
+    margin-top:-10px;
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .gradient{
+  	margin-top: -12px;	
+    font-size: 65px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .gradient{
+  	margin-top: -18px;	
+    font-size: 75px;
+  }
+}
+
+@media screen and (min-width:1000px) {
+  .gradient{
+  	margin-top: -18px;	
+    font-size: 85px;
+  }
+}
+
+/* INDEX bottom category section */
+.cat-team, .cat-sched, .cat-tix{
+	height:200px;
+	/*background-color:rgba(0,0,0,.70);*/
+}
+
+
+.cat-team {
+	background-image: url(../img/img1.jpg);
+	background-size: 100%;
+}
+
+
+.cat-sched {
+	background-image: url(../img/img2.jpg);
+	background-size: 100%;
+}
+
+.cat-tix {
+	background-image: url(../img/img3.jpg);
+	background-size: 100%;
+}
+
+@media screen and (min-width:641px) {
+	.cat-team, .cat-sched, .cat-tix{
+		background-size: cover;
+		background-position: top center; 
+	}
+}
+
+
+.team-button,
+.sched-button,
+.tix-button{
+	margin-top:60px;
+	border:#fff 3px solid;
+	background-color: rgba(0,0,0,.3);
+	padding:7px;
+	width:60%;
+	height:auto;
+	margin-left:auto;
+	margin-right: auto;
+
+	font-family: "Teko","Arial",sans-serif;
+	font-weight: 500;
+	font-size: 220%;
+	color:white;
+	letter-spacing: 3px;
+	text-align: center;
+
+	position: relative;
+}
+
+@media screen and (min-width:641px) {
+	.team-button,
+	.sched-button,
+	.tix-button{
+		font-size:100%; 
+	}
+}
+
+@media screen and (min-width:768px) {
+	.team-button,
+	.tix-button{
+		font-size:200%; 
+	}
+}
+
+@media screen and (min-width:768px) {
+	.sched-button{
+		width:90%;
+		font-size: 200%;
+	}
+}
+
+.team-button a, 
+.sched-button a, 
+.tix-button a{
+	color: #fff;
+}
+
+.team-button a:hover, 
+.sched-button a:hover, 
+.tix-button a:hover{
+	color:#e66b24;	
+}
+
+
+/* footer */
+.footer{
+	height: 130px;
+	color:#fff;
+}
+
+.footer-info{
+	margin-left: auto;
+	margin-right: auto;
+	width:215px;
+}
+
+.footer-span{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:5px;
+	width:280px;
+}
+
+.footer-span-2{
+	margin-top:5px;
+	width:100%;
+	text-align: right;
+	padding-right: 20px;
+	text-decoration: underline;
+}
+
+.footer-span-2 a:link{
+	color:#fff;
+}
+
+.footer-span-2 a:active{
+	color:#fff;
+}
+
+.footer-span-2 a:hover{
+	color:#000;
+}
+
+.circle{
+	display: inline-block;
+	width:55px;
+	height: 55px;
+	background-color: #fff;
+	border-radius: 100%;
+	padding:10px;
+	margin-top:10px;
+}
+
+.margin{
+	margin-right: 20px;
+}
+
+.fb {
+	width: 55px;
+}
+
+.twitter	 {
+	width: 55px;
+}
+
+.insta	 {
+	width: 55px;
+}
+
+
+/* OTHER GENERAL PAGES */
+
+.header-text{
+	padding:10px 50px;
+}
+
+
+/*TEAMS PAGE*/
+.teams-background{
+	background-image: url(../img/teams-background.jpg);
+}
+
+.teams{
+	height:auto;
+	background-color: #000;
+}
+
+.teams-color{
+	background: #cc3333;
+	width:90%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.teams-info {
+	padding:50px 47px;
+	background-color: none;
+	height:auto;
+	width:280px;
+	margin-left:60px;
+}
+
+@media screen and (min-width:502px) {
+	.teams-info{
+		width:380px;
+	}
+}
+
+@media screen and (min-width:525px) {
+	.teams-info{
+		width:420px;
+		margin-left:80px;
+	}
+}
+
+@media screen and (min-width:767px) {
+	.teams-info{
+		width:600px;
+		margin-left:80px;
+	}
+}
+
+@media screen and (min-width:767px) {
+	.teams-info{
+		width:600px;
+		margin-left:100px;
+	}
+}
+
+.placement-img{
+	width:100px;
+	height: 107px;
+	background-color: #fff;
+	float: left;
+	margin-left: 20px;
+	margin-top:60px;
+}
+
+@media screen and (min-width:995px) {
+	.placement-img{
+		margin-left:40px;
+	}
+}
+
+
+.top-head-teams{
+	height:300px;
+}
+
+.teams-info ul {
+	padding-left: 30px;
+	display:block;
+	color:#fff;
+}
+
+h1{
+	padding:50px 0px;
+	text-align: right;
+	margin-top:100px;
+	margin-bottom: 0px !important;
+
+	font-size: 100px;
+	font-family: "Teko",sans-serif;
+	font-weight: 500;
+	color:#fff;
+}
+
+@media screen and (min-width:640px) {
+	h1 {
+		font-size:180px;
+		margin-top:80px;
+		padding:10px 40px;
+	}
+}
+
+h3{
+	color:#fff;
+}
+
+/* SCHEDULES PAGE*/
+.sched-background{
+	background-image: url(../img/teams-background.jpg);
+}
+
+.schedules{
+	height:auto;
+	background-color: #000;
+}
+
+.schedules-extra{
+	height:30px;
+	background-color: #000;
+}
+
+.schedules-color{
+	background: #cc3333;
+	width:90%;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.schedule-lineup{
+	font-family: "Teko";
+	color:#fff;
+	font-size: 25px;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0,0,0,.4);
+	margin-top:40px;
+}
+
+.header-text h2{
+	font-family: "Teko";
+	font-weight: 500;
+	font-size: 20px;
+	color:#fff;
+}
+
+@media screen and (min-width:640px) {
+.header-text h2{
+	font-family: "Teko";
+	font-weight: 500;
+	font-size: 50px;
+}
+}
+
+
+@media screen and (max-width:640px) {
+	.schedules-h1 {
+		font-size:85px;
+		margin-top:110px;
+		
+	}
+}
+
+/* PARTNERS PAGE */
+.partners-background{
+	background-image: url(../img/teams-background.jpg);
+}
+
+.partners{
+	height:auto;
+	background-color: #000;
+}
+
+.partners-color{
+	background: #cc3333;
+	width:90%;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.partners-span span{
+	color:#fff;
+	font-size:15px;
+}
+
+.partners-span-2{
+	width:97%;
+	margin-left:auto;
+	margin-right: auto;
+	padding:20px 15px;
+}
+
+.partner-ul{
+	width:97%;
+	margin-left:15px;
+	padding:35px 15px;
+	color:#fff;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.smaller-text-span{
+	font-size: 13px !important;
+	font-weight: 500;
+}
+
+
+
+
+
+/* TICKETS PAGE */
+.tickets-background{
+	background-image: url(../img/teams-background.jpg);
+}
+
+.tickets{
+	height:auto;
+	background-color: #000;
+}
+
+.tickets-color{
+	background: #cc3333;
+	width:90%;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tickets-span-2{
+	font-size: 14px;
+	color:#fff !important;
+	text-align: center;
+	display: block;
+	padding-top: 10px;
+}
+
+.tickets-span {
+	font-family: "Droid" !important;
+	font-size: 16px;
+	color:#fff !important;
+	text-align: center;
+	display: block;
+	padding:30px 0px;
+}
+
+
+
+
+
